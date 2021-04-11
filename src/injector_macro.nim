@@ -89,6 +89,4 @@ macro sym_inject*(params: varargs[untyped]): untyped =
       newIdentNode(procName)
     )
 
-  echo result.repr
-
-#eof
+  #echo result.repr

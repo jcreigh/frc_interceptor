@@ -38,5 +38,3 @@ proc dlsym*(handle: pointer, name: constCStr): pointer {.exportc, dynlib, cdecl.
     return injector_handlers[$cname]
 
   return real_dlsym(handle, cname)
-
-#eof
