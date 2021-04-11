@@ -5,7 +5,7 @@ author        = "Jessica Creighton"
 description   = "A MITM library for FRC to (eventually) view/modify FPGA and CAN communication"
 license       = "MIT"
 srcDir        = "src"
-namedBin["frc_interceptor"] = "frc_interceptor.dylib"
+namedBin["frc_interceptor"] = "frc_interceptor.so"
 
 # Dependencies
 
